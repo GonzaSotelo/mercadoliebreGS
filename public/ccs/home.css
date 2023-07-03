@@ -1,0 +1,113 @@
+.home__encabezado {
+
+padding: 3px 10px 13px;
+
+background-color: var(--Amarillo);
+}
+/* LOGO */
+.home__encabezado figure {
+
+width: 200px;
+}
+.home__encabezado figure img {
+
+width: 100%;
+}
+/* BUSCADOR */
+.home__encabezado--seach {
+}
+.home__encabezado--seach input {
+    display: block;
+    }
+.home__encabezado--seach button {
+
+margin-top: 2px;
+
+border-radius: 3px;
+
+padding: 2px;
+}
+.home__encabezado--seach button i {}
+/* COMPRA */
+.home__encabezado--compra {
+
+text-align: center;
+
+margin-top: 8px;
+}
+.home__encabezado--compra i {}
+.home__encabezado--compra span {
+    
+font-weight: 600;
+    
+font-size: .7rem;
+}
+/* MENU */
+.home__encabezado-menu {
+    margin-top: 20px;
+}
+.home__encabezado-menu ul {
+
+list-style: none;
+
+padding: 0;
+}
+.home__encabezado-menu ul li {}
+.home__encabezado-menu ul li a {}
+/* LOGIN */
+
+.home__encabezado-login {
+
+margin-top: 20px;
+}
+.home__encabezado-login ul {}
+.home__encabezado-login ul li{}
+.home__encabezado-login ul li a {}
+.home__encabezado-login ul li a i {margin-left: 7px;}
+
+/* BURGER MENU */
+
+.home__encabezado button.burger-menu {
+    
+margin: 20px auto;
+    
+border: none;
+    
+background-color: var(--Celeste);
+    
+color: var(--GrisClaro);
+    
+border-radius: 4px;
+    
+padding: 5px 8px;
+    
+dispa: inherit;
+}
+.container__menu-burger {
+
+text-align: center;
+}
+
+/* FOOTER */
+
+.footer__opciones {
+    text-align: center;
+    margin: 7% 14%;
+}
+.footer__opciones i {
+    color: var(--Celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+.footer__opciones h5 {
+    color: var(--GrisOscuro);
+    font-weight: 700;
+}
+.footer__opciones p {
+    font-size: small;
+    font-weight: 400;
+    color: var(--GrisOscuro);
+}
+
+.copyright {text-align: left;color: var(--GrisOscuro);font-weight: 400;margin: 5% 3%;}
