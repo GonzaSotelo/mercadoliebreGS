@@ -20,8 +20,8 @@
 
 ---
 * [Rama Principal](https://github.com/GonzaSotelo/mercadoliebreGS): La rama principal del proyecto.
-* [Rama de Estructura de un sitio web ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/estructuraDeUnSitioWeb):la rama estructuraDeUnSitioWeb armamos la estructura de la pagina web
-* [Rama de Agregando estilos ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/agregandoEstilos):
+* [Rama de Estructura de un sitio web ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/estructuraDeUnSitioWeb):la rama estructuraDeUnSitioWeb armamos la estructura del home con vista movile.
+* [Rama de Agregando estilos ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/agregandoEstilos): La rama agregandoEstilos agregamos css al header y al footer.
 
 ---
 
