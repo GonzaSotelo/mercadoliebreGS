@@ -3,6 +3,8 @@
 padding: 3px 10px 13px;
 
 background-color: var(--Amarillo);
+
+background-size: contain;
 }
 /* LOGO */
 .home__encabezado figure {
@@ -87,6 +89,32 @@ dispa: inherit;
 
 text-align: center;
 }
+
+/*  MAIN  */
+
+.home__main{
+    margin: 0 auto;
+    width: 90%;
+}
+.home__main_section{}
+.home__main_section-article{}
+.home__main_section-article img{
+    width: 300px;
+    height: auto;
+}
+.home__main_section-ofertas{}
+.home__main_section-ofertas-article h3{}
+.home__main_section-ofertas-article{}
+.home__main_section-ofertas-article img {
+    width: 300px;
+    height: auto;
+}
+.home__main_section-ofertas-article .producto_precio{}
+.home__main_section-ofertas-article .producto_descuento{}
+.home__main_section-ofertas-article .producto_titulo{}
+.home__main_section-article .producto_precio{}
+.home__main_section-article .producto_descuento{}
+.home__main_section-article .producto_titulo{}
 
 /* FOOTER */
 
