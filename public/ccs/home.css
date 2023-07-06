@@ -1,3 +1,7 @@
+.home {
+    background-color: var(--GrisClaro);
+}
+
 .home__encabezado {
 
 padding: 3px 10px 13px;
@@ -93,28 +97,55 @@ text-align: center;
 /*  MAIN  */
 
 .home__main{
-    margin: 0 auto;
+    margin: auto;
     width: 90%;
 }
-.home__main_section{}
-.home__main_section-article{}
-.home__main_section-article img{
-    width: 300px;
-    height: auto;
+.home__main h3 {
+    padding: 1em;
+    color: var(--GrisOscuro);
+    font-size: var(--Titulares);
+    font-weight: 700;
 }
-.home__main_section-ofertas{}
-.home__main_section-ofertas-article h3{}
-.home__main_section-ofertas-article{}
-.home__main_section-ofertas-article img {
-    width: 300px;
-    height: auto;
+.home__main_article{
+    background-color: white;
+    margin-bottom: 10px;
 }
-.home__main_section-ofertas-article .producto_precio{}
-.home__main_section-ofertas-article .producto_descuento{}
-.home__main_section-ofertas-article .producto_titulo{}
-.home__main_section-article .producto_precio{}
-.home__main_section-article .producto_descuento{}
-.home__main_section-article .producto_titulo{}
+.article-box{
+    padding: 15px;
+    border-top: 1px solid #ebebeb;
+}
+.article-box img {
+    width: 200px;
+    height: auto;
+    margin: 10%;
+}
+.logo-container{
+    border-top: 1px solid #ebebeb;
+    padding: 1em;
+}
+.logo-container i {
+    color: var(--Verde);
+    border-radius: 50%;
+    padding: 1em;
+    margin: 0px;
+    border: solid 2px;
+}
+.details-container {}
+.producto_precio{
+    font-size: var(--Precios);
+    font-weight: 700;
+}
+.producto_descuento{
+    color: var(--Verde);
+    font-size: var(--Descuentos);
+    font-weight: 400;
+}
+.producto_titulo{
+    color: var(--GrisOscuro);
+    font-size: var(--Descripciones);
+    font-weight: 700;
+    margin-top: 1em;
+}
 
 /* FOOTER */
 
@@ -139,3 +170,16 @@ text-align: center;
 }
 
 .copyright {text-align: left;color: var(--GrisOscuro);font-weight: 400;margin: 5% 3%;}
+
+@media(min-width: 361px) {
+.home{
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+
+}
+@media(min-width:769px){
+.home{
+    box-shadow: 0px 0px 10px rgb(100,100,100);;
+}
+
+}
