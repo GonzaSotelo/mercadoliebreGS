@@ -28,7 +28,6 @@
 
 
 
-* [Rama de Agregando estilos ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/agregandoEstilos): La rama agregandoEstilos agregamos css al header y al footer.
 
 ---
 
