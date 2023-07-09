@@ -12,18 +12,15 @@ background-size: contain;
 }
 /* LOGO */
 .home__encabezado figure {
-
-width: 200px;
+width: 100%;
 }
 .home__encabezado figure img {
-
-width: 100%;
+width: 40%;
 }
 /* BUSCADOR */
 .home__encabezado--seach {
 }
 .home__encabezado--seach input {
-    display: block;
     }
 .home__encabezado--seach button {
 
@@ -43,29 +40,31 @@ margin-top: 8px;
 }
 .home__encabezado--compra i {}
 .home__encabezado--compra span {
-    
-font-weight: 600;
-    
-font-size: .7rem;
+    font-weight: 600;
+    font-size: 0.7rem;
 }
 /* MENU */
-.home__encabezado-menu {
-    margin-top: 20px;
-}
+
 .home__encabezado-menu ul {
 
 list-style: none;
 
 padding: 0;
 }
+
+.home__encabezado-login {
+
+    margin-top: 20px;
+    }
+.home__encabezado-menu {
+        margin-top: 20px;
+    }
+
 .home__encabezado-menu ul li {}
 .home__encabezado-menu ul li a {}
 /* LOGIN */
 
-.home__encabezado-login {
 
-margin-top: 20px;
-}
 .home__encabezado-login ul {}
 .home__encabezado-login ul li{}
 .home__encabezado-login ul li a {}
@@ -115,9 +114,10 @@ text-align: center;
     border-top: 1px solid #ebebeb;
 }
 .article-box img {
-    width: 200px;
-    height: auto;
-    margin: 10%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo-container{
     border-top: 1px solid #ebebeb;
@@ -147,6 +147,7 @@ text-align: center;
     margin-top: 1em;
 }
 
+
 /* FOOTER */
 
 .footer__opciones {
@@ -171,15 +172,33 @@ text-align: center;
 
 .copyright {text-align: left;color: var(--GrisOscuro);font-weight: 400;margin: 5% 3%;}
 
-@media(min-width: 361px) {
-.home{
-    box-shadow: 0px 0px 10px rgb(100,100,100);
+@media (min-width: 361px) {
+    .article-box{
+        box-shadow: 0px 0px 10px rgb(100,100,100);;
+    }
+.home__encabezado button.burger-menu {
+    display: none;
+}
+}
+@media (min-width: 769px) {
+.article-box{
+    box-shadow: 0px 0px 10px rgb(100,100,100);;
+}
+.home__encabezado button.burger-menu {
+    display: none;
 }
 
 }
-@media(min-width:769px){
-.home{
-    box-shadow: 0px 0px 10px rgb(100,100,100);;
+@media (max-width: 360px) {
+    .producto_titulo {
+    display: none;
+  }
+  .home__encabezado-menu {
+   display: none;
+}
+.home__encabezado-login {
+
+display: none;
 }
 
 }
