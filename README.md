@@ -22,8 +22,8 @@
 * [Rama de Estructura de un sitio web ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/estructuraDeUnSitioWeb):la rama estructuraDeUnSitioWeb armamos la estructura del home con vista movile.
 * [Rama de Agregando estilos ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/agregandoEstilos): La rama agregandoEstilos agregamos css al header y al footer.
 * [Rama de Diseño Adaptativo ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/dise%C3%B1oAdaptativo): La rama diseñoAdaptativo termina de agregarle css al main y se hace la pagina adaptativa para tablet y desktop.
+* [Rama flexbox ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/flexbox): La rama flexbox terminamos de acomodar todo con flexbox
 * [Rama de Formularios ](https://github.com/GonzaSotelo/mercadoliebreGS/tree/formularios): la rama formularios hacemos el formulario para registro y login
 ---
-
 
 
