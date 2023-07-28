@@ -3,16 +3,11 @@
 }
 
 .home__encabezado {
-
-padding: 10px 10px 13px;
-
-background-color: var(--Amarillo);
-
-background-size: contain;
-
-display: flex;
-
-flex-wrap: wrap;
+padding: 10px 10px 13px;
+background-color: var(--Amarillo);
+background-size: contain;
+display: flex;
+flex-wrap: wrap;
 }
 
 /* LOGO */
@@ -32,12 +27,12 @@ flex-wrap: wrap;
     width: 50%;
 }
 
-.home__encabezado--seach input {
-    width: 70%;
-}
+.home__encabezado--seach input {border-radius: 5px;border: none;height: 27px;width: 90%;margin-left: 12px;}
 
 .home__encabezado--seach button {
-margin-top: 2px;
+    border: none;
+    position: absolute;
+    margin: 5px 0 0 -13px;
 }
 
 .home__encabezado--seach button i {}
@@ -73,17 +68,16 @@ display: flex;
 }
 
 .home__encabezado-login {
-
-margin-top: 10px;
-
-display: flex;
-
-justify-content: flex-end;
+margin-top: 10px;
+display: flex;
+justify-content: flex-end;
+width: 50%;
 }
 
 .home__encabezado-menu {
     margin-top: 10px;
     flex: auto;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
 }
@@ -295,6 +289,9 @@ margin-top: 6px;
 
     .home__encabezado button.burger-menu {
         display: none;
+    }
+    .home__encabezado--seach button i {
+        
     }
 
 }
