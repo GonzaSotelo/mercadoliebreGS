@@ -3,16 +3,11 @@
 }
 
 .home__encabezado {
-
-padding: 10px 10px 13px;
-
-background-color: var(--Amarillo);
-
-background-size: contain;
-
-display: flex;
-
-flex-wrap: wrap;
+padding: 10px 10px 13px;
+background-color: var(--Amarillo);
+background-size: contain;
+display: flex;
+flex-wrap: wrap;
 }
 
 /* LOGO */
@@ -40,10 +35,7 @@ flex-wrap: wrap;
     margin: 5px 0 0 -13px;
 }
 
-.home__encabezado--seach button i {
-    margin: -24px 0 0px 66px;
-    position: absolute;
-}
+.home__encabezado--seach button i {}
 
 /* COMPRA */
 .home__encabezado--compra {
@@ -103,7 +95,6 @@ width: 50%;
 
 .home__encabezado-login ul {
     display: flex;
- 
 }
 
 .home__encabezado-login ul li {
@@ -269,7 +260,7 @@ margin-top: 6px;
     }
     .home__encabezado--seach {
         width: 30%;
-        margin: 5px 22px;
+        margin: 24px 22px;
     }
     .home__encabezado--compra{
         width: 36%;
