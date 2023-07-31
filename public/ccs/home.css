@@ -40,7 +40,10 @@ flex-wrap: wrap;
     margin: 5px 0 0 -13px;
 }
 
-.home__encabezado--seach button i {}
+.home__encabezado--seach button i {
+    margin: -24px 0 0px 66px;
+    position: absolute;
+}
 
 /* COMPRA */
 .home__encabezado--compra {

@@ -15,7 +15,7 @@ form {
     max-width: 500px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -34,10 +34,10 @@ input[type="text"],
 input[type="date"],
 input[type="password"],
 input[type="file"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    /* width: 100%; */
+    /* padding: 8px; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
 }
 
 label[for="electro"],
@@ -76,6 +76,6 @@ button[type="reset"]:hover {
 @media screen and (max-width: 600px) {
     form {
         max-width: 90%;
-        /* text-align: center; */
+        text-align: center;
     }
 }
