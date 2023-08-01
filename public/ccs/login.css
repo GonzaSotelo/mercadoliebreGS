@@ -1,0 +1,14 @@
+.submit-enviar {
+    background-color: #0077FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+ 
+  .submit-enviar:hover {
+    background-color: #0022AA;
+  }

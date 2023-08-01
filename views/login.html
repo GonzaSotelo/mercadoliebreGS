@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/ccs/styles.css">
+</head>
+<body>
+  <header class="home__encabezado">
+    <!-- LOGO -->
+    <figure>
+      <img src="/img/logo-mercado-liebre.svg" alt="logo" />
+    </figure>
+    <!-- BUSCADOR -->
+    <form action="/" class="home__encabezado--seach">
+      <input type="text" placeholder="Buscar productos, marcas" >
+      <button><i class="fas fa-search"></i></button>
+    </form>
+    <!-- COMPRA -->
+
+    <div class="home__encabezado--compra">
+      <p>
+        <i class="fas fa-hand-holding-usd"></i>
+        <span>Comprá en cuotas y sin tarjeta de crédito</span>
+      </p>
+    </div>
+    <!-- MENU -->
+    <nav class="home__encabezado-menu">
+      <ul>
+        <li><a href="/ofertas">Ofertas</a></li>
+        <li><a href="/tiendasOficioales">Tiendas Oficiales</a></li>
+        <li><a href="/vender">Vender</a></li>
+        <li><a href="/ayuda">Ayuda</a></li>
+      </ul>
+    </nav>
+    <!-- LOGIN -->
+    <nav class="home__encabezado-login">
+      <ul>
+        <li>
+          <a href="/register"
+            >Creá tu cuenta <i class="far fa-id-card"></i
+          ></a>
+        </li>
+        <li>
+          <a href="/login">Ingresá<i class="fas fa-sign-in-alt"></i></a>
+        </li>
+        <li>
+          <a href="/misCompras"
+            >Mis compras<i class="fas fa-shopping-basket"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- BURGER MENU -->
+    <div class="container__menu-burger">
+      <button class="burger-menu" type="button">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+    <h1>Login de Usuario</h1>
+    <form class="login-form" action="main_page.html" method="post">
+      <label for="nombre_usuario">Nombre de usuari@:</label>
+      <input type="text" id="nombre_usuario" name="nombre_usuario" required><br><br>
+  
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+      <button class="submit-enviar" type="submit">Enviar</button>
+  
+      
+    </form>
+  </body>
+</html>
