@@ -25,6 +25,7 @@
 /* BUSCADOR */
 .home__encabezado--seach {
     width: 50%;
+    height: 27px;
 }
 
 .home__encabezado--seach input {border-radius: 5px;border: none;height: 27px;width: 90%;margin-left: 12px;}
